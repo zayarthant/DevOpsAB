@@ -23,4 +23,9 @@ public class TestCalcu {
     void testSub(){
         assertEquals(calcu.sub(4,2),2);
     }
+
+    @Test
+    void testMul(){
+        assertEquals(calcu.mul(4,2),8);
+    }
 }
